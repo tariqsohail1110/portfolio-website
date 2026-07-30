@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&family=Inter:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-mono: 'JetBrains Mono', monospace;
+  --font-body: 'Inter', sans-serif;
+
+  /* Theme variables mapping */
+  --color-bg-custom: var(--bg);
+  --color-text-custom: var(--text);
+  --color-panel-custom: var(--panel);
+  --color-card-custom: var(--card);
+  --color-chip-custom: var(--chip);
+  --color-border-custom: var(--border);
+  --color-border-strong: var(--border-strong);
+  --color-sub-custom: var(--sub);
+  --color-muted-custom: var(--muted);
+  --color-faint-custom: var(--faint);
+  --color-faintest-custom: var(--faintest);
+  --color-heading-custom: var(--heading);
+  --color-nav-bg: var(--nav-bg);
+}
+
+:root {
+  --bg: #F7F5F0;
+  --text: #1C1A16;
+  --panel: #ffffff;
+  --card: #ffffff;
+  --chip: #f1f5f9;
+  --border: #cbd5e1; /* slate-300 */
+  --border-strong: #cbd5e1;
+  --sub: #334155; /* slate-700 */
+  --muted: #475569; /* slate-600 */
+  --faint: #64748b; /* slate-500 */
+  --faintest: #94a3b8; /* slate-400 */
+  --heading: #1C1A16;
+  --nav-bg: rgba(247, 245, 240, 0.8);
+}
+
+.dark {
+  --bg: #0F1419;
+  --text: #E8E6E1;
+  --panel: #0B0F13;
+  --card: #131920;
+  --chip: #1e293b; /* slate-800 */
+  --border: #1e293b; /* slate-800 */
+  --border-strong: #334155; /* slate-700 */
+  --sub: #cbd5e1; /* slate-300 */
+  --muted: #94a3b8; /* slate-400 */
+  --faint: #64748b; /* slate-500 */
+  --faintest: #475569; /* slate-600 */
+  --heading: #ffffff;
+  --nav-bg: rgba(15, 20, 25, 0.8);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-mono);
+}
+
+::selection {
+  background: #E8A33D;
+  color: #0F1419;
+}
+
+.scanline {
+  background: repeating-linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.015) 0px,
+    rgba(255, 255, 255, 0.015) 1px,
+    transparent 1px,
+    transparent 3px
+  );
+}
