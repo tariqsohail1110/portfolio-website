@@ -7,6 +7,7 @@ const SKILLS = [
   { group: "Automation", items: ["n8n workflow automation", "AI-driven process automation", "ElevenLabs integration"] },
   { group: "Frontend", items: ["React.js", "Tailwind CSS"] },
   { group: "Databases & Tools", items: ["PostgreSQL", "Git", "Code Refactoring", "System Scalability"] },
+  { group: "Data Science & ML", items: ["NumPy", "Pandas"] },
   { group: "Spoken Languages", items: ["Urdu (Native)", "English (Fluent)"] }
 ];
 
