@@ -10,7 +10,7 @@ export default function About({ ref }) {
     >
       <SectionLabel index="01" title="about" />
       <p className="font-body text-sub-custom text-base md:text-lg leading-relaxed mt-6">
-        I'm a backend developer based in Karachi, worked at {" "}
+        I'm a backend and full stack developer based in Karachi, worked at {" "}
         <span className="text-amber-500 font-semibold">Digital Auxilius (DAX)</span> as an Intern, where I refactor backend
         systems and build automation workflows. My focus is REST APIs, MVC architecture, and
         using tools like n8n to take manual, repetitive processes off people's plates. I also

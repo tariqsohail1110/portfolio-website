@@ -32,7 +32,7 @@ function useTypewriter(lines, speed = 28, startDelay = 200) {
 export default function Hero({ scrollTo }) {
   const bootLines = useTypewriter([
     "$ who am I?",
-    "muhammad_tariq_sohail — backend developer / automation engineer",
+    "muhammad_tariq_sohail — full stack developer / automation engineer",
     "$ status --current",
     "building reliable APIs, automating the boring parts.",
   ]);
@@ -63,7 +63,7 @@ export default function Hero({ scrollTo }) {
           Muhammad Tariq <span className="text-amber-400">Sohail</span>
         </h1>
         <p className="mt-3 text-muted-custom text-base md:text-lg font-body max-w-xl">
-          Backend developer who automates the parts of the job people would rather not do —
+          Full Stack developer who automates the parts of the job people would rather not do —
           APIs, workflows, and everything in between.
         </p>
 
