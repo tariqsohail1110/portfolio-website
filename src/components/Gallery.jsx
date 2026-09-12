@@ -15,27 +15,27 @@ const PROJECTS_GALLERY = [
       {
         title: "Signup Page",
         image: "/images/signup.png",
-        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+        desc: "The user can register themselves through the signup page",
       },
       {
         title: "Login Page",
         image: "/images/login.png",
-        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+        desc: "The users can login to their personal password protected account through the login page",
       },
       {
         title: "Verify Otp Page",
         image: "/images/otp.png",
-        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+        desc: "The users while logging for the first time should verify their email via otp to login to their accounts",
       },
       {
         title: "Forget Password Page",
         image: "/images/forget-pass.png",
-        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+        desc: "If a user forgets his/her password, he/she can request an otp thorugh their registered email",
       },
       {
         title: "Reset Password Page",
         image: "/images/reset-pass.png",
-        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+        desc: "After successfully verifying their email, the user can change their password",
       },
       {
         title: "Dashboard Overview",
@@ -55,7 +55,7 @@ const PROJECTS_GALLERY = [
       {
         title: "Personal Account Settings",
         image: "/images/account-settings.png",
-        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+        desc: "Dedicated page for managing you own personal details like, password, email, first name and last name, and account deletion",
       },
     ],
   },
@@ -156,7 +156,7 @@ export default function Gallery({ ref }) {
           onClick={() => setActiveProject(null)}
         >
           <div
-            className="relative max-w-4xl w-full bg-card-custom border border-border-strong rounded-lg shadow-2xl overflow-hidden flex flex-col max-h-[85vh] animate-in fade-in zoom-in-95 duration-200"
+            className="relative max-w-6xl w-full bg-card-custom border border-border-strong rounded-lg shadow-2xl overflow-hidden flex flex-col max-h-[90vh] animate-in fade-in zoom-in-95 duration-200"
             onClick={(e) => e.stopPropagation()}
           >
             {/* OS Window Header */}
@@ -228,7 +228,7 @@ export default function Gallery({ ref }) {
             </div>
 
             {/* Grid of screenshots */}
-            <div className="p-6 overflow-y-auto max-h-[calc(85vh-90px)] grid sm:grid-cols-2 gap-6 bg-bg-custom/50">
+            <div className="p-4 overflow-y-auto max-h-[calc(90vh-90px)] grid grid-cols-2 gap-4 bg-bg-custom/50">
               {activeProject.images.map((img) => (
                 <div
                   key={img.title}
@@ -250,7 +250,7 @@ export default function Gallery({ ref }) {
 
                     {/* Screenshot Container */}
                     <div
-                      className="relative overflow-hidden cursor-zoom-in aspect-video bg-black/10 dark:bg-black/40"
+                      className="relative overflow-hidden cursor-zoom-in h-[30vh] bg-black/10 dark:bg-black/40"
                       onClick={() => setActiveImage(img)}
                     >
                       <img
