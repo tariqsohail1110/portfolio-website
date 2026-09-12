@@ -4,14 +4,39 @@ import SectionLabel from "./SectionLabel";
 
 const PROJECTS_GALLERY = [
   {
-    id: "expense-tracker-frontend",
-    title: "Expense Tracker Frontend",
-    folderName: "expense-tracker-frontend",
-    techStack: ["React.js", "Tailwind CSS"],
-    desc: "Visual snapshots showing key interfaces and dashboards of the React-based expense tracker application.",
-    coverImage: "/images/dashboard.png",
-    liveLink: "https://vault-finance-frontend.netlify.app/",
+    id: "vault-finance",
+    title: "Vault Finance",
+    folderName: "vault-finance",
+    techStack: ["Node.js", "Express.js", "React.js", "Tailwind CSS", "PostgreSQL"],
+    desc: "A daily life personal expense tracking application to track your expenses in accordance with your budget",
+    coverImage: "/images/folder.png",
+    liveLink: "https://my-vault-finance-app.vercel.app/",
     images: [
+      {
+        title: "Signup Page",
+        image: "/images/signup.png",
+        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+      },
+      {
+        title: "Login Page",
+        image: "/images/login.png",
+        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+      },
+      {
+        title: "Verify Otp Page",
+        image: "/images/otp.png",
+        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+      },
+      {
+        title: "Forget Password Page",
+        image: "/images/forget-pass.png",
+        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+      },
+      {
+        title: "Reset Password Page",
+        image: "/images/reset-pass.png",
+        desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
+      },
       {
         title: "Dashboard Overview",
         image: "/images/dashboard.png",
@@ -28,8 +53,8 @@ const PROJECTS_GALLERY = [
         desc: "Dedicated view for configuring the monthly budget, displaying remaining days, and monitoring relative expenses by category.",
       },
       {
-        title: "Admin & System Overview",
-        image: "/images/admin.png",
+        title: "Personal Account Settings",
+        image: "/images/account-settings.png",
         desc: "An administrative panel showing total user counts, active sessions, platform-wide transaction volume, and user account status tables.",
       },
     ],

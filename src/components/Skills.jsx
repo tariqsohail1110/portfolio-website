@@ -6,7 +6,7 @@ const SKILLS = [
   { group: "Backend & APIs", items: ["RESTful API design", "MVC architecture", "Monorepo architecture", "RBAC"] },
   { group: "Automation", items: ["n8n workflow automation", "AI-driven process automation", "ElevenLabs integration"] },
   { group: "Frontend", items: ["React.js", "Tailwind CSS"] },
-  { group: "Databases & Tools", items: ["PostgreSQL", "Git", "Code Refactoring", "System Scalability"] },
+  { group: "Databases & Tools", items: ["PostgreSQL", "Git", "Code Refactoring", "System Scalability", "CI/CD"] },
   { group: "Data Science & ML", items: ["NumPy", "Pandas"] },
   { group: "Spoken Languages", items: ["Urdu (Native)", "English (Fluent)"] }
 ];
