@@ -59,7 +59,7 @@ const PROJECTS_GALLERY = [
       },
     ],
   },
-  
+
 ];
 
 export default function Gallery({ ref }) {
