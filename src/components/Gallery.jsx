@@ -9,7 +9,7 @@ const PROJECTS_GALLERY = [
     folderName: "vault-finance",
     techStack: ["Node.js", "Express.js", "React.js", "Tailwind CSS", "PostgreSQL"],
     desc: "A daily life personal expense tracking application to track your expenses in accordance with your budget",
-    coverImage: "/images/folder.png",
+    coverImage: "/images/dashboard.png",
     liveLink: "https://my-vault-finance-app.vercel.app/",
     images: [
       {
